@@ -1,0 +1,113 @@
+/* CSS Document */
+
+body,div,h1,ul,li,img,p,table,tr,td,form,label,input {
+		margin: 0;
+		padding: 0;
+	}
+	a {
+		color:black;
+		text-decoration: none;
+	}
+	a:hover {
+		color: #999;
+		text-decoration: none;
+	}
+
+
+    	.header {
+			height: 100px;
+			-webkit-box-shadow:0px 5px 7px #C4C4C4; 
+			box-shadow: 0px 5px 7px #C4C4C4;
+			border-radius: 0px;
+		}
+		.logo{
+			float:left;
+			margin-top:20px;
+			margin-left:50px;
+			}
+		.link{
+			font-size:14px;
+			font-family:黑体;
+			margin-top: -72px;
+			margin-left: 300px;
+			}
+		ul{
+			list-style-type: none;
+			}
+		ul li{
+			display: inline-block;
+			margin-left: -9px;
+			padding: 40px 30px;
+			height: 100px;
+			}
+		.selected{
+			background-color:#05c3f9;
+			}
+		.lunbo{
+			padding-top: 100px;
+			padding-left: 120px;
+			}
+		.footer {
+			height: 200px;
+			-webkit-box-shadow:0px 5px 7px #C4C4C4; 
+			box-shadow: 0px 5px 7px #C4C4C4;
+			border-radius: 0px;
+		}
+		.center-top{
+			height:560px;
+			-webkit-box-shadow:0px 5px 7px #C4C4C4; 
+			box-shadow: 0px 5px 7px #C4C4C4;
+			border-radius: 0px;
+			margin-top: -20px;
+			}
+		.center-bottom{
+			height:840px;
+			width:1155px;
+			margin-top:-20px;
+			margin-left:15px;
+			-webkit-box-shadow:0px 5px 7px #C4C4C4; 
+			box-shadow: 0px 5px 7px #C4C4C4;
+			border-radius: 0px;
+			}
+		.product{position:relative;}
+		.photo{position:absolute;top:110px;left:70px;line-height:30px;}
+		.engraving{position:absolute;top:150px;left:70px;line-height:30px;}
+		.inscribing{position:absolute;top:190px;left:70px;line-height:30px;}
+		.chapter{position:absolute;top:230px;left:70px;line-height:30px;}
+		.uv{position:absolute;top:270px;left:70px;line-height:30px;}
+		.consumables{position:absolute;top:310px;left:70px;line-height:30px;}
+		    
+	.carousel .active, .carousel .next, .carousel .prev {
+		display: inline-block;
+	}
+	.carousel-indicators li {
+		display: inline-block;
+		width: 10px;
+		height: 10px;
+		margin: 1px;
+		text-indent: -999px;
+		cursor: pointer;
+		border: 1px solid black;
+		border-radius: 10px;
+	}
+	.center-bottom {
+		background-image:url(img/wenli.gif);
+	}
+	.show{
+		-moz-box-shadow:0px 0px 20px #B3B3B3; -webkit-box-shadow:0px 0px 20px #B3B3B3; box-shadow:0px 0px 20px #B3B3B3;
+		}
+	.center-bottom-left{
+		margin-top:50px;
+		}
+	.center-bottom-right{
+		margin-top:50px;
+		margin-left:-50px;
+		}
+	.jianjie{
+		margin-top:30px;
+		margin-left:80px;
+		}
+	span{
+		font-family:宋体;
+		font-size:14px;
+		}
