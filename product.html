@@ -15,8 +15,76 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery-ui.min.js" type="text/javascript"></script>
     
-   
-    
+    <script type="text/javascript">
+		window.onload=function(){
+			$("#spanO").html("写真机");
+			$("#engraving").hide();
+			$("#inscribing").hide();
+			$("#chapter").hide();
+			$("#uv").hide();
+			$("#consumables").hide();
+			}
+    	function photo(){
+			$(".spanT").css("margin-left","480px");
+			$("#spanO").html("写真机");
+			$("#photo").show();
+			$("#engraving").hide();
+			$("#inscribing").hide();
+			$("#chapter").hide();
+			$("#uv").hide();
+			$("#consumables").hide();
+			}
+		function engraving(){
+			$(".spanT").css("margin-left","480px");
+			$("#spanO").html("雕刻机");
+			$("#photo").hide();
+			$("#engraving").show();
+			$("#inscribing").hide();
+			$("#chapter").hide();
+			$("#uv").hide();
+			$("#consumables").hide();
+			}
+		function inscribing(){
+			$(".spanT").css("margin-left","480px");
+			$("#spanO").html("刻字机");
+			$("#photo").hide();
+			$("#engraving").hide();
+			$("#inscribing").show();
+			$("#chapter").hide();
+			$("#uv").hide();
+			$("#consumables").hide();
+			}
+		function chapter(){
+			$(".spanT").css("margin-left","480px");
+			$("#spanO").html("刻章机");
+			$("#photo").hide();
+			$("#engraving").hide();
+			$("#inscribing").hide();
+			$("#chapter").show();
+			$("#uv").hide();
+			$("#consumables").hide();
+			}
+		function uv(){
+			$(".spanT").css("margin-left","476px");
+			$("#spanO").html("uv平板");
+			$("#photo").hide();
+			$("#engraving").hide();
+			$("#inscribing").hide();
+			$("#chapter").hide();
+			$("#uv").show();
+			$("#consumables").hide();
+			}
+		function consumables(){
+			$(".spanT").css("margin-left","506px");
+			$("#spanO").html("耗材");
+			$("#photo").hide();
+			$("#engraving").hide();
+			$("#inscribing").hide();
+			$("#chapter").hide();
+			$("#uv").hide();
+			$("#consumables").show();
+			}	
+    </script>
 </head>
 
 <body>
@@ -45,15 +113,344 @@
 	</div>
     <div class="container">
 		<div class="row">
-            <div class="center">
-            	<div class="top">
-                	<div class="top-left">
-                    	<h3 style="margin:5px 100px; color:#FFF">产品中心</h3>
+        	<div class="center">
+            	<div class="col-md-12 col-xs-12">
+                    <div class="top">
+                        <div class="top-left">
+                            <h4 style="margin:13px 120px; color:#FFF">产品中心</h4>
+                        </div>
+                        <div class="top-right">
+                            <span id="spanO" class="spanO">写真机</span> <span class="spanT">当前位置 : 产品中心</span>
+                        </div>
+                        <div class="line"></div>
                     </div>
-                    <div class="top-right">
-                        <span class="spanO">写真机</span> <span class="spanT">当前位置:首页 > 产品中心</span>
-                    </div>
-                    <div class="line"></div>
+                </div>
+            </div>
+            <div class="center-bottom">
+            	<div class="col-md-3 col-xs-12">
+                	<div class="center-bottom-left">
+                        <div>
+                           <div class="product"><img src="img/l.gif" /></div>
+                           <div class="photo"><a href="javascript:photo();">写真机</a></div>
+                           <div class="engraving"><a href="javascript:engraving();">雕刻机</a></div>
+                           <div class="inscribing"><a href="javascript:inscribing();">刻字机</a></div>
+                           <div class="chapter"><a href="javascript:chapter();">刻章机</a></div>
+                           <div class="uv"><a href="javascript:uv();">UV平板</a></div>
+                           <div class="consumables"><a href="javascript:consumables();">耗  材</a></div>
+                        </div>
+                        <br/>
+                        <div>
+                        	<img src="img/wx.gif"><span>武腾写真机</span>
+                            <img src="img/phone.gif"><br/>
+                            <span>010-53679985</span><br/>
+			    <span>13269757576</span><br/>
+                            <span>13671235388</span>
+                        </div>
+                	</div>
+                </div>
+                <div class="col-md-9 col-xs-12">
+                    <div class="center-bottom-right">
+                       <table id="photo" width="828" style="text-align:center;">
+                        	<tr align="center">
+                            	<td width="368" height="211">
+                                	<div class="show" style="width:329px;">
+                                    	<img src="img/001.gif" style="height:211px">
+                                    </div>
+                                </td>
+                                <td width="368" height="211">
+                                	<div class="show" style="width:329px;">
+                                    	<img src="img/002.gif" style="height:211px">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                            	<td height="80">
+                                	<span><a href="./product link/photo machine.html">武腾全系列户内外写真机</a></span>
+                                    <br/>
+                                    <span>送货上门</span>
+                                </td>
+                                <td>
+                                	<span><a href="./product link/carving machine.html">星宇多功能数控雕刻机</a></span>
+                                    <br/>
+                                    <span>送货上门</span>
+                                </td>
+                            </tr>
+                            <tr align="center">
+                            	<td width="368" height="211">
+                                	<div class="show" style="width:329px;">
+                                    	<img src="img/003.gif" style="height:211px">
+                                  	</div>
+                                </td>
+                               <td width="368" height="211">
+                                	<div class="show" style="width:329px;">
+                                    	<img src="img/004.gif" style="height:211px">
+                                   	</div>
+                                </td>
+                            </tr>
+                            <tr>
+                            	<td height="80">
+                                	<span><a href="#">新罗兰电脑绘图机</a></span>
+                                    <br/>
+                                    <span>送货1上门</span>
+                                </td>
+                                <td>
+                                	<span><a href="#">圣纳俐激光刻章机</a></span>
+                                    <br/>
+                                    <span>送货1门</span>
+                                </td>
+                            </tr>
+                       </table>
+                       <table id="engraving" width="828" style="text-align:center;">
+                        	<tr align="center">
+                            	<td width="368" height="211">
+                                	<div class="show" style="width:329px;">
+                                    	<img src="img/001.gif" style="height:211px">
+                                    </div>
+                                </td>
+                                <td width="368" height="211">
+                                	<div class="show" style="width:329px;">
+                                    	<img src="img/002.gif" style="height:211px">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                            	<td height="80">
+                                	<span><a href="./product link/photo machine.html">武腾全系列户内外写真机</a></span>
+                                    <br/>
+                                    <span>送货上门</span>
+                                </td>
+                                <td>
+                                	<span><a href="./product link/carving machine.html">星宇多功能数控雕刻机</a></span>
+                                    <br/>
+                                    <span>送货上门</span>
+                                </td>
+                            </tr>
+                            <tr align="center">
+                            	<td width="368" height="211">
+                                	<div class="show" style="width:329px;">
+                                    	<img src="img/003.gif" style="height:211px">
+                                  	</div>
+                                </td>
+                               <td width="368" height="211">
+                                	<div class="show" style="width:329px;">
+                                    	<img src="img/004.gif" style="height:211px">
+                                   	</div>
+                                </td>
+                            </tr>
+                            <tr>
+                            	<td height="80">
+                                	<span><a href="#">新罗兰电脑绘图机</a></span>
+                                    <br/>
+                                    <span>送货上门</span>
+                                </td>
+                                <td>
+                                	<span><a href="#">圣纳俐激光刻章机</a></span>
+                                    <br/>
+                                    <span>送货上门</span>
+                                </td>
+                            </tr>
+                       </table>
+                       <table id="inscribing" width="828" style="text-align:center;">
+                        	<tr align="center">
+                            	<td width="368" height="211">
+                                	<div class="show" style="width:329px;">
+                                    	<img src="img/001.gif" style="height:211px">
+                                    </div>
+                                </td>
+                                <td width="368" height="211">
+                                	<div class="show" style="width:329px;">
+                                    	<img src="img/002.gif" style="height:211px">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                            	<td height="80">
+                                	<span><a href="./product link/photo machine.html">武腾全系列户内外写真机</a></span>
+                                    <br/>
+                                    <span>送货上门</span>
+                                </td>
+                                <td>
+                                	<span><a href="./product link/carving machine.html">星宇多功能数控雕刻机</a></span>
+                                    <br/>
+                                    <span>送货上门</span>
+                                </td>
+                            </tr>
+                            <tr align="center">
+                            	<td width="368" height="211">
+                                	<div class="show" style="width:329px;">
+                                    	<img src="img/003.gif" style="height:211px">
+                                  	</div>
+                                </td>
+                               <td width="368" height="211">
+                                	<div class="show" style="width:329px;">
+                                    	<img src="img/004.gif" style="height:211px">
+                                   	</div>
+                                </td>
+                            </tr>
+                            <tr>
+                            	<td height="80">
+                                	<span><a href="#">新罗兰电脑绘图机</a></span>
+                                    <br/>
+                                    <span>送货上门</span>
+                                </td>
+                                <td>
+                                	<span><a href="#">圣纳俐激光刻章机</a></span>
+                                    <br/>
+                                    <span>送货上门</span>
+                                </td>
+                            </tr>
+                       </table>
+                       <table id="chapter" width="828" style="text-align:center;">
+                        	<tr align="center">
+                            	<td width="368" height="211">
+                                	<div class="show" style="width:329px;">
+                                    	<img src="img/001.gif" style="height:211px">
+                                    </div>
+                                </td>
+                                <td width="368" height="211">
+                                	<div class="show" style="width:329px;">
+                                    	<img src="img/002.gif" style="height:211px">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                            	<td height="80">
+                                	<span><a href="./product link/photo machine.html">武腾全系列户内外写真机</a></span>
+                                    <br/>
+                                    <span>送货上门</span>
+                                </td>
+                                <td>
+                                	<span><a href="./product link/carving machine.html">星宇多功能数控雕刻机</a></span>
+                                    <br/>
+                                    <span>送货上门</span>
+                                </td>
+                            </tr>
+                            <tr align="center">
+                            	<td width="368" height="211">
+                                	<div class="show" style="width:329px;">
+                                    	<img src="img/003.gif" style="height:211px">
+                                  	</div>
+                                </td>
+                               <td width="368" height="211">
+                                	<div class="show" style="width:329px;">
+                                    	<img src="img/004.gif" style="height:211px">
+                                   	</div>
+                                </td>
+                            </tr>
+                            <tr>
+                            	<td height="80">
+                                	<span><a href="#">新罗兰电脑绘图机</a></span>
+                                    <br/>
+                                    <span>送货上门</span>
+                                </td>
+                                <td>
+                                	<span><a href="#">圣纳俐激光刻章机</a></span>
+                                    <br/>
+                                    <span>送货上门</span>
+                                </td>
+                            </tr>
+                       </table>
+                       <table id="uv" width="828" style="text-align:center;">
+                        	<tr align="center">
+                            	<td width="368" height="211">
+                                	<div class="show" style="width:329px;">
+                                    	<img src="img/001.gif" style="height:211px">
+                                    </div>
+                                </td>
+                                <td width="368" height="211">
+                                	<div class="show" style="width:329px;">
+                                    	<img src="img/002.gif" style="height:211px">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                            	<td height="80">
+                                	<span><a href="./product link/photo machine.html">武腾全系列户内外写真机</a></span>
+                                    <br/>
+                                    <span>送货上门</span>
+                                </td>
+                                <td>
+                                	<span><a href="./product link/carving machine.html">星宇多功能数控雕刻机</a></span>
+                                    <br/>
+                                    <span>送货上门</span>
+                                </td>
+                            </tr>
+                            <tr align="center">
+                            	<td width="368" height="211">
+                                	<div class="show" style="width:329px;">
+                                    	<img src="img/003.gif" style="height:211px">
+                                  	</div>
+                                </td>
+                               <td width="368" height="211">
+                                	<div class="show" style="width:329px;">
+                                    	<img src="img/004.gif" style="height:211px">
+                                   	</div>
+                                </td>
+                            </tr>
+                            <tr>
+                            	<td height="80">
+                                	<span><a href="#">新罗兰电脑绘图机</a></span>
+                                    <br/>
+                                    <span>送货上门</span>
+                                </td>
+                                <td>
+                                	<span><a href="#">圣纳俐激光刻章机</a></span>
+                                    <br/>
+                                    <span>送货上门</span>
+                                </td>
+                            </tr>
+                       </table>
+                       <table id="consumables" width="828" style="text-align:center;">
+                        	<tr align="center">
+                            	<td width="368" height="211">
+                                	<div class="show" style="width:329px;">
+                                    	<img src="img/001.gif" style="height:211px">
+                                    </div>
+                                </td>
+                                <td width="368" height="211">
+                                	<div class="show" style="width:329px;">
+                                    	<img src="img/002.gif" style="height:211px">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                            	<td height="80">
+                                	<span><a href="./product link/photo machine.html">武腾全系列户内外写真机</a></span>
+                                    <br/>
+                                    <span>送货上门</span>
+                                </td>
+                                <td>
+                                	<span><a href="./product link/carving machine.html">星宇多功能数控雕刻机</a></span>
+                                    <br/>
+                                    <span>送货上门</span>
+                                </td>
+                            </tr>
+                            <tr align="center">
+                            	<td width="368" height="211">
+                                	<div class="show" style="width:329px;">
+                                    	<img src="img/003.gif" style="height:211px">
+                                  	</div>
+                                </td>
+                               <td width="368" height="211">
+                                	<div class="show" style="width:329px;">
+                                    	<img src="img/004.gif" style="height:211px">
+                                   	</div>
+                                </td>
+                            </tr>
+                            <tr>
+                            	<td height="80">
+                                	<span><a href="#">新罗兰电脑绘图机</a></span>
+                                    <br/>
+                                    <span>送货上门</span>
+                                </td>
+                                <td>
+                                	<span><a href="#">圣纳俐激光刻章机</a></span>
+                                    <br/>
+                                    <span>送货上门</span>
+                                </td>
+                            </tr>
+                       </table>
+               	  </div>
                 </div>
             </div>
 		</div>

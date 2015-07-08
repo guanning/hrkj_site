@@ -92,9 +92,9 @@ body,div,h1,ul,li,img,p,table,tr,td,form,label,input {
 		}
 	.top-right .spanO{
 		margin-top:25px;
-		margin-left:550px;
+		margin-left:610px;
 		font-family:"微软雅黑";
-		font-size:16px;
+		font-size:14px;
 		color:#888888;
 		}
 	.bottom{
@@ -106,14 +106,11 @@ body,div,h1,ul,li,img,p,table,tr,td,form,label,input {
 		float:left;
 		width:320px;
 		height:320px;
-		border:1px dashed #666;
 		}
 	.left-top{
-		border:1px dashed #666;
 		height:250px;
 		}
 	.left-bottom{
-		border:1px dashed #666;
 		width:320px;
 		height:70px;
 		background-color:#05C3F9;
@@ -131,14 +128,11 @@ body,div,h1,ul,li,img,p,table,tr,td,form,label,input {
 		float:left;
 		width:320px;
 		height:320px;
-		border:1px dashed #666;
 		}
 	.b-top{
-		border:1px dashed #666;
 		height:150px;
 		}
 	.b-bottom{
-		border:1px dashed #666;
 		height:150px;
 		margin-top:20px;
 		}
@@ -149,7 +143,6 @@ body,div,h1,ul,li,img,p,table,tr,td,form,label,input {
 		width:320px;
 		height:320px;
 		overflow:hidden;
-		border:1px dashed #666;
 		}
 	.ul-top{
 		margin-top:5px;
